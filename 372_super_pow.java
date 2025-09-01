@@ -7,7 +7,7 @@ class Solution {
             p += num*Math.pow(10, n--);
         }
 
-        return helper(a, p);
+        return helper(a, p) % 1337;
     }
 
     private int helper(int a, long p) {
