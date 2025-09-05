@@ -31,6 +31,7 @@ class Solution {
         for (int i=nums.length-1; i>piv; i--) {
             if (nums[i] > nums[piv]) {
                 swap (nums, i, piv);
+                break;
             }
         }
 
